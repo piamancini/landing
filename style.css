@@ -1,0 +1,131 @@
+
+@font-face {
+	font-family: Brandon Regular;
+	src: url(fonts/Brandon_reg.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: Brandon Thin;
+	src: url(fonts/Brandon_thin.otf);
+	font-style: normal;
+	font-weight: thin;
+}
+/*@font-face {
+	font-family: Brandon;
+	src: url(fonts/Brandon_reg.otf);
+	font-size: normal;
+	font-weight: bold;
+}*/
+
+body {
+	margin: 0;
+	/*overflow: hidden;*/
+	background-image: url(images/fondo.jpg);
+	/*background-repeat: no-repeat;*/
+	background-size: 100%;
+	font-family: Brandon Regular;
+}
+
+#container{
+	width: 50%;
+	display:block;
+	float: right;
+}
+
+.wrap {
+	width: 500px;
+	margin: 0px auto 0px auto;
+	display: block;
+	min-height: 100px;
+}
+#heading {
+	margin-top: 40%;
+	margin-bottom: 50px;
+	display: block;
+	color: #4f406f;
+}
+
+#heading img {
+	width: 120px;
+	margin:0px 0px 10px 0px;
+	float: left;
+	display: inline-block;
+}
+
+#heading h1 {
+	display: inline-block;
+	float: left;
+	margin: 28px 0px 0px 10px;
+	width: 270px;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 34px;
+}
+
+#content p {
+	color: white;
+	font-family: Brandon Thin;
+	font-size: 28px;
+	line-height: 28px;
+	font-weight: thin;
+	text-align: justify;
+	margin-bottom: 100px;
+}
+
+strong {
+	color: white;
+	display: block;
+	margin-bottom: 55px;
+	color: #4f406f;
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+	/*letter-spacing: .8px;*/
+
+}
+ a#btn_DOS {
+	background-color: #4f406f;
+	/*box-shadow: 1px 1px 3px #333;*/
+	border: solid #4f406f;
+	border-radius: 10px;
+	padding: 5px;
+	min-width: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 120px;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: Brandon Thin;
+	font-size: 14px;
+}
+
+a#btn_DOS:hover {
+	background-color: #725ca0;
+	border: solid #725ca0;
+/*	box-shadow: 1px 1px 3px #fff;*/
+}
+
+#twitter {
+	min-width: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 150px;
+	/*display: block;*/
+	text-align: center;
+	/*float: right;*/
+	float: right;
+}
+
+#twitter img {
+	width: 28px;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+	/*font-family: Brandon;*/
+}
